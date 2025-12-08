@@ -32,6 +32,7 @@ snake-game/
 │   │   │   └── index.ts
 │   │   ├── utils/
 │   │   │   └── gameHelpers.ts
+│   │   ├── index.html
 │   │   ├── App.tsx
 │   │   └── main.tsx
 │   ├── package.json
@@ -63,45 +64,23 @@ snake-game/
 ├── package.json
 └── README.md
 
-## Структура ui-library
-ui-library/
-├── src/
-│   ├── Button/
-│   ├── Input/
-│   ├── TextArea/
-│   ├── Card/
-│   └── index.ts
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── eslint.config.js
-├── jest.config.js
-└── .gitignore
-
 ## Используемые библиотеки
 
-### Runtime зависимости:
+### Зависимости:
 - `"react": "^19.2.0"` — UI библиотека  
 - `"react-dom": "^19.2.0"` — рендеринг React-компонентов  
 - `"react-router-dom": "^6.0.0"` — маршрутизация  
 - `"socket.io-client": "^4.7.5"` — клиентская работа с WebSocket  
 - `"socket.io": "^4.7.5"` — серверная работа с WebSocket  
-- `"@mui/material": "^5.15.0"` — UI компоненты  
-- `"@my-app/ui-library"` — локальные UI компоненты  
-
-### Dev зависимости:
 - `typescript ~5.9.3` — статическая типизация  
 - `vite ^7.1.11` — сборщик и dev-сервер  
 - `eslint ^9.36.0` — линтинг кода  
 - `jest ^30.2.0` — тестирование  
+- express (^4.18.2): Серверная платформа на Node.js для REST и WebSocket
+- cors (^2.8.5): Разрешение CORS-запросов от клиента к серверу в dev-среде
 
 ## Компоненты
-
-### UI-библиотека:
-- **Button** — базовая кнопка с вариантами стилей  
-- **Input** — однострочное поле ввода  
-- **Textarea** — многострочное поле  
-- **Card** — карточка для отображения информации  
+ 
 
 ### Client:
 - **SnakeCanvas** — отрисовка поля и змей с помощью Canvas API  
