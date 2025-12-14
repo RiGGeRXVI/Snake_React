@@ -1,0 +1,65 @@
+.root {
+  display: grid;
+  gap: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #14532d;
+}
+
+.card {
+  border: 1px solid rgba(22, 163, 74, 0.25);
+  background: rgba(22, 163, 74, 0.06);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+}
+
+.value {
+  font-weight: 900;
+  color: #166534;
+}
+
+.colorRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.colorDot {
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.section {
+  display: grid;
+  gap: 10px;
+}
+
+.h3 {
+  margin: 0;
+  color: #14532d;
+}
+
+.hint {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 14px;
+}

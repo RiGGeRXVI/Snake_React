@@ -1,0 +1,92 @@
+.root {
+  display: grid;
+  gap: 14px;
+}
+
+.headRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #14532d;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(20, 83, 45, 0.25);
+  cursor: pointer;
+  background: #fff;
+  color: #14532d;
+  font-weight: 800;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+  border: 1px solid rgba(22, 163, 74, 0.18);
+  background: rgba(22, 163, 74, 0.06);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.alert {
+  margin: 0;
+  color: #b91c1c;
+}
+
+.tableWrap {
+  border: 1px solid rgba(20, 83, 45, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.th {
+  text-align: left;
+  padding: 12px;
+  background: rgba(22, 163, 74, 0.08);
+  border-bottom: 1px solid rgba(20, 83, 45, 0.12);
+  font-weight: 900;
+  color: #14532d;
+}
+
+.td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.row:hover {
+  background: rgba(22, 163, 74, 0.05);
+}
+
+.muted {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.nick {
+  font-weight: 900;
+  color: #166534;
+}
